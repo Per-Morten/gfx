@@ -30,6 +30,7 @@
 ///     - GLEnumToString (at the end, due to its size)
 ///
 /// Version History
+/// - 2019.02.23 (1.15): - Minor grammar fixes in documentation
 /// - 2019.02.23 (1.14): - Add asserts to introspection functions
 ///                      - Add support for some non-square matrices
 /// - 2019.02.19 (1.13): - Add support for using colorpicker when editing vec3 and vec4
@@ -299,7 +300,7 @@ else { GFX_ERROR("Assertion failure: " #expr ": " fmt, ##__VA_ARGS__); }    \
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /// OVERVIEW
 ///
-/// OpenGL has a large amount defined hex enum values, which can be heard to read when
+/// OpenGL has a large amount defined hex enum values, which can be hard to read when
 /// you don't have access to the name.
 /// GLEnumToString is a utility function that will turn those enum values into constant strings.
 /// Enums will also include the errors that you get back from OpenGL.
@@ -338,7 +339,7 @@ namespace Gfx
 /// OVERVIEW
 ///
 /// Error handling is important in OpenGL, but it can be easy to forget.
-/// If you make an OpenGL call with the GLCall macro any errors detected from that call
+/// If you make an OpenGL call with the GL_Call macro any errors detected from that call
 /// and where the call happened will be reported to you through the Gfx logging system.
 ///
 ///////////////////////////////////////////////////////////////////////////////////////////////////
