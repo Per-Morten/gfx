@@ -11,7 +11,7 @@ GFX also contains some simple introspection tools, allowing students to inspect 
 in an in-application GUI (implemented using the excellent [Dear ImGui](https://github.com/ocornut/imgui)). Through this GUI students can also modify uniform variables in their shaders (as long as these uniforms are overridden elsewhere in the code).
 The introspection tool is not written with performance in mind, but rather to put as few restrictions on the students' architectures as possible, and to allow the tools to be used in an easy plug an play manner.
 A demo of the visualization tools can be seen in the animation below.
-# TODO: Insert Animation
+![](gfx_demo.gif)
 
 ## Documentation & This Repo
 GFX is header only (except for the dependency on Dear ImGui), and the main documentation is located within the header file.
